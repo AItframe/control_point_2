@@ -7,7 +7,7 @@ let result = '';
 for (let i = 0; i < word.length; i++) 
 {
     let char = word[i].toLowerCase();
-    if (char !== 'а' && char !== 'о')``
+    if (char !== 'а' && char !== 'о')
     {
         result += word[i];
     }
